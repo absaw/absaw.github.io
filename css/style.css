@@ -174,7 +174,7 @@ a:focus {
         width: 100%;
         padding: 30px 60px;
         background: transparent !important;
-        border-bottom: 1px dashed rgba(256, 256, 256, .2);
+        /* border-bottom: 1px dashed rgb(255, 255, 255); */
         z-index: 9;
     }
     
@@ -231,8 +231,13 @@ a:focus {
     
     .navbar .navbar-brand {
         /* color: rgb(9, 159, 209); */
+        display: block;
     color: rgb(9, 159, 209);
-    margin-left: 113px;
+    /* margin-left: 120px; */
+    text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 50%; */
     /* background: rgb(9, 159, 209); */
 
     }

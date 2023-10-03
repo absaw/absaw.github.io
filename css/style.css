@@ -852,14 +852,21 @@ a:focus {
     transition: 1s;
 }
 
-.service .service-text p {
+.service .service-text h5 {
+    margin: 0;
+    font-size: 16px;
+    transition: 1s;
+}
+.service .service-text ul {
     margin: 0;
     font-size: 16px;
     transition: 1s;
 }
 
 .service .service-item:hover .service-text h3,
-.service .service-item:hover .service-text p {
+.service .service-item:hover .service-text ul,
+.service .service-item:hover .service-text a,
+.service .service-item:hover .service-text h5 {
     color: #ffffff;
 }
 
@@ -869,7 +876,10 @@ a:focus {
         margin-bottom: 5px;
     }
     
-    .service .service-text p {
+    .service .service-text h5 {
+        font-size: 14px;
+    }
+    .service .service-text ul {
         font-size: 14px;
     }
 }

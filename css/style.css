@@ -1,9 +1,9 @@
 /* Media query for screens smaller than 768 pixels */
 @media (max-width: 768px) {
-    .wow {
-      animation: none !important; /* Disable animations for mobile */
+    /* .wow {
+      animation: none !important; 
       
-    }
+    } */
     .container-fluid{
         width: 100% !important;
         max-width: 100% !important;

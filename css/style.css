@@ -2,6 +2,11 @@
 @media (max-width: 768px) {
     .wow {
       animation: none !important; /* Disable animations for mobile */
+      
+    }
+    .container-fluid{
+        width: 100% !important;
+        max-width: 100% !important;
     }
   }
 
@@ -42,7 +47,9 @@ a:focus {
 }
 
 .container-fluid {
-    max-width: 1366px;
+    /* max-width: 1366px; */
+    width: 100%;
+  max-width: 100%;
 }
 
 .btn {
@@ -1011,7 +1018,9 @@ a:focus {
 }
 
 .banner .container {
-    max-width: 750px;
+    width: 100%;
+  max-width: 100%;
+    /* max-width: 750px; */
     text-align: center;
 }
 

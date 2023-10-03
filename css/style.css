@@ -1,3 +1,10 @@
+/* Media query for screens smaller than 768 pixels */
+@media (max-width: 768px) {
+    .wow {
+      animation: none !important; /* Disable animations for mobile */
+    }
+  }
+
 /*******************************/
 /********* General CSS *********/
 /*******************************/

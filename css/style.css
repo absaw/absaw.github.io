@@ -37,7 +37,9 @@ a {
     color: #313131;
     transition: .3s;
 }
-
+p{
+    text-align: justify;
+}
 a:hover,
 a:active,
 a:focus {

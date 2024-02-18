@@ -159,7 +159,7 @@ a:focus {
 }
 
 .navbar.nav-sticky {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
@@ -204,9 +204,8 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        /* background: #ffffff; */
         background: rgb(9, 159, 209) !important;
-
+        position:fixed;
     }
     
     .navbar .navbar-brand {
@@ -266,7 +265,12 @@ a:focus {
     /* background: rgb(9, 159, 209); */
 
     }
-    
+    .navbar.nav-sticky {
+        position: sticky;
+        /* top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .3); */
+    }
     .navbar .navbar-nav {
         margin-top: 15px;
     }

@@ -195,12 +195,18 @@ a:focus {
         background: transparent !important;
         /* border-bottom: 1px dashed rgb(255, 255, 255); */
         z-index: 9;
+
+        /* position: relative; */
+        /* transition: .5s;
+        z-index: 999; */
+
     }
     
     .navbar.nav-sticky {
         padding: 10px 60px;
         /* background: #ffffff; */
         background: rgb(9, 159, 209) !important;
+
     }
     
     .navbar .navbar-brand {

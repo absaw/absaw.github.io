@@ -6,7 +6,7 @@ index_backup_2.html
 __pycache__/
 *.py[cod]
 *$py.class
-
+unused_img
 # C extensions
 *.so
 

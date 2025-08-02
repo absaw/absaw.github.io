@@ -30,22 +30,24 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a href="index.html">
-                <img src="img/absaw.jpeg" class="navbar-brand" style="height: 100px;width: auto;">
-            </a>
+            <!-- <a href="index.html">
+                <img src="img/absaw.jpeg" class="navbar-brand" style="height: 100px;width: auto; border-radius: 15%;"
+                    alt="Abhishek Sawalkar Logo">
+            </a> -->
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse justify-content-center w-100" id="navbarCollapse">
+                <div class="navbar-nav d-flex flex-row justify-content-center w-100">
                     <a href="#home" class="nav-item nav-link active">Home</a>
                     <a href="#skills" class="nav-item nav-link">Skills</a>
                     <a href="#experience" class="nav-item nav-link">Experience</a>
                     <a href="#education" class="nav-item nav-link">Academics</a>
                     <a href="#projects" class="nav-item nav-link">Projects</a>
                     <a href="#recognition" class="nav-item nav-link">Recognition</a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://abhisheksawalkar.blogspot.com/" class="nav-item nav-link">Blog</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://abhisheksawalkar.blogspot.com/"
+                        class="nav-item nav-link">Blog</a>
                     <a href="#footer" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
@@ -68,16 +70,43 @@
                                 Developer</div>
                         </div>
                         <br>
-                        <div class="hero-btn" style="text-align: center;">
+                        <div class="hero-btn"
+                            style="display: flex; justify-content: center; align-items: center; gap: 32px;">
                             <a target="_blank" rel="noopener noreferrer" title="Resume"
                                 href="https://drive.google.com/file/d/1JvYBcprhHI-4pPxfXt1ova0eEOIUaE9u/view?usp=sharing">
                                 <img src="img/absaw_barcode.png" alt="Resume Barcode"
-                                    style="height: 200px;width: auto;">
+                                    style="height: 200px;width: auto; border-radius: 10%;">
+                                <p style="font-weight: bold; margin-top: 8px;">Click / Scan for Resume</p>
                             </a>
-                            <p style="text-align: center;"><b>Click / Scan for Resume</b></p>
+                            <div style="text-align: left;">
+                                <!-- <h4>Contact</h4> -->
+                                <p style="margin-bottom: 0; font-size: 1.6em; ">
+                                    <a href="https://www.linkedin.com/in/abhisheksawalkar/" target="_blank"
+                                        rel="noopener noreferrer" style="display: inline-block; margin-bottom: 8px;"><i
+                                            class="fab fa-linkedin" style="font-size: 1.2em; margin-right: 6px;"></i>
+                                    </a><br>
+                                    <a href="https://github.com/absaw" target="_blank" rel="noopener noreferrer"
+                                        style="display: inline-block; margin-bottom: 8px;">
+                                        <i class="fab fa-github" style="font-size: 1.2em; margin-right: 6px;"></i>
+                                    </a><br>
+                                    <a href="https://scholar.google.com/citations?user=DsSVHR0AAAAJ&hl=en"
+                                        target="_blank" rel="noopener noreferrer"
+                                        style="display: inline-block; margin-bottom: 8px;">
+                                        <i class="fas fa-graduation-cap"
+                                            style="font-size: 1.2em; margin-right: 6px;"></i>
+                                    </a><br>
+                                    <a href="mailto:abhishek.sawalkar@rutgers.edu" target="_blank"
+                                        rel="noopener noreferrer" style="display: inline-block; margin-bottom: 8px;">
+                                        <i class="fas fa-envelope" style="font-size: 1.2em; margin-right: 6px;"></i>
+                                    </a> <br>
+                                </p>
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
+
                 <div class="col-sm-12 col-md-6">
                     <br><br><br>
                     <div class="hero-image">
@@ -149,8 +178,8 @@
                             <h3>Full Stack</h3>
                             <h5>
                                 <ul type="circle">
-                                    <li>HTML5, CSS, JS</li>
-                                    <li>React</li>
+                                    <li>HTML5, CSS, Javascript, TypeScript</li>
+                                    <li>React, Next</li>
                                     <li>RESTful APIs</li>
                                     <ul>
                                         <li>Django</li>
@@ -171,6 +200,8 @@
                             <h3>Industry Tools</h3>
                             <h5>
                                 <ul type="circle">
+                                    <li>Harness</li>
+                                    <li>Rancher</li>
                                     <li>Docker</li>
                                     <li>AWS</li>
                                     <li>Power Automate</li>
@@ -191,20 +222,39 @@
                 <h2>Work Experience</h2>
             </header>
             <div class="timeline">
+                <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                    <!-- <div class="timeline-text">
+                        </div> -->
+                    <div class="timeline-text">
+                        <img src="img/PayPal.png" alt="PayPal Logo"
+                            style="height: 100px;width: auto; padding-bottom: 10px;">
+                        <div class="timeline-date">May 2025 - Present</div>
+                        <h2>Software Engineer</h2>
+                        <h4>Identity and Access Managment</h4>
+                        <p>
+                            As part of the Identity and Access Management (IAM) frontend team, I work on building and
+                            maintaining secure, scalable, and user-centric authentication experiences across PayPal’s
+                            global ecosystem. Our team plays a critical role in managing user identity, login, session,
+                            and access workflows across all PayPal products.
+                        </p>
+                    </div>
+                </div>
                 <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                     <!-- <div class="timeline-text">
                         </div> -->
                     <div class="timeline-text">
                         <img src="img/rutgers.png" alt="Rutgers Logo"
                             style="height: 100px;width: auto; padding-bottom: 10px;">
-                        <div class="timeline-date">January 2024 - May 2024</div>
+                        <div class="timeline-date">January 2024 - May 2025</div>
                         <h2>Machine Learning Engineer - Research Assistant</h2>
                         <h4>Computer Science Department - Rutgers University</h4>
                         <p>
-                            Focused on deep generative modeling of data (platelet transcriptome) to attain a gene(translatable gene signature) which is common across different types of diseases <br>
+                            Focused on deep generative modeling of data (platelet transcriptome) to attain a
+                            gene(translatable gene signature) which is common across different types of diseases <br>
                             <!-- Designed RUStore:  which  is  a  remote  objectstore acting as  the  server.  The  aim  was  toestablish  a  novel  communication  protocol  with  Java Socket Programmingtofacilitate CRUD operations between a client and server.<br>
                                 Devised Foodie Web Service: A project involving development of a RESTful API backend web service to take-in an address and return a list of nearby restaurants using Geocod.ioAPI and YelpAPI -->
-                            Stanford Genomics Cluster: Worked on a project with Dr. Anandi Krishnan to study and identify progressive markers, in
+                            Stanford Genomics Cluster: Worked on a project with Dr. Anandi Krishnan to study and
+                            identify progressive markers, in
                             blood platelets, which can help in detecting chronic Myeloproliferative Neoplasms (a class
                             of blood cancer) through time series analysis of mRNA-seq data of patients
                         </p>
@@ -248,11 +298,15 @@
                         <h2>Software Engineer - Automation </h2>
                         <h4>Mumbai, India</h4>
                         <p>
-                            <ul>
-                            <li>Generated $1.55M FTE benefit for legal ops, by spearheading design and implementing employee data automation, which streamlined workflows and eliminated manual data handling errors.</li>
-                            <li>Achieved $350K FTE benefit via slashing security incident closure time by 60% through innovating automation to track and report phishing incidents.</li>
-                            <li>Promoted for exceptional leadership and successful project delivery with benefit of 1.9M+ in FY 21.</li>
-                            </ul>
+                        <ul>
+                            <li>Generated $1.55M FTE benefit for legal ops, by spearheading design and implementing
+                                employee data automation, which streamlined workflows and eliminated manual data
+                                handling errors.</li>
+                            <li>Achieved $350K FTE benefit via slashing security incident closure time by 60% through
+                                innovating automation to track and report phishing incidents.</li>
+                            <li>Promoted for exceptional leadership and successful project delivery with benefit of
+                                1.9M+ in FY 21.</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
@@ -292,7 +346,8 @@
                         <h2>Rutgers University</h2>
                         <h4>Master of Science - Computer Science – <b>3.9/4</b></h4>
                         <p>
-                            Coursework: Thesis – Integrative Clinical and Bio-Mechanical Features Predict In-Hospital Trauma Mortality
+                            Coursework: Thesis – Integrative Clinical and Bio-Mechanical Features Predict In-Hospital
+                            Trauma Mortality
                             Machine Learning, Computer Vision, Math Foundations of Data Science, Databases
                             for Data ScienceIntroduction to Artificial Intelligence, Data Structures and Algorithms
                         </p>
@@ -448,7 +503,7 @@
         </div>
     </div>
 
-    
+
     <div class="recognition" id="recognition">
         <div class="container">
             <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
@@ -463,15 +518,21 @@
                         <div class="blog-text">
                             <h2>Outstanding Master's Student Award</h2>
                             <div class="blog-meta">
-                                <p><i class="far fa-user"></i>  School of Graduate Studies, Rutgers U</p>
-                                <p><i class="far fa-calendar-alt"></i>  9<sup>th</sup> May, 2024 - The Rutgers Club</p>
+                                <p><i class="far fa-user"></i> School of Graduate Studies, Rutgers U</p>
+                                <p><i class="far fa-calendar-alt"></i> 9<sup>th</sup> May, 2024 - The Rutgers Club</p>
                             </div>
                             <p>
-                                The School of Graduate Studies recognizes the notable achievements of graduate students, faculty, and staff at the annual Merit and Achievement Awards Ceremony. These awards recognize important accomplishments in research and scholarship, teaching and mentoring, leadership, outreach, and service across all disciplines, through Chancellor-level affiliations, and within specific disciplinary clusters.
+                                The School of Graduate Studies recognizes the notable achievements of graduate students,
+                                faculty, and staff at the annual Merit and Achievement Awards Ceremony. These awards
+                                recognize important accomplishments in research and scholarship, teaching and mentoring,
+                                leadership, outreach, and service across all disciplines, through Chancellor-level
+                                affiliations, and within specific disciplinary clusters.
 
                                 <!-- Mr. Sawalkar stands out as a beacon of excellence, marked by an exceptional track record, maintaining an exemplary GPA (3.9) throughout his Master's program as well as academic research, showcasing unparalleled dedication to advancing the frontiers of computer science. Over the past year, his transformative work in spearheading research initiatives, notably in MPN platelet transcript and trauma patient data, has been nothing short of remarkable. -->
                             </p>
-                            <a target="_blank" rel="noopener noreferrer" class="btn" href="https://grad.rutgers.edu/news/2024-merit-and-achievement-awards-ceremony#:~:text=abhishek%20sawalkar%2C%20computer%20science">Read More <i class="fa fa-angle-right"></i></a>
+                            <a target="_blank" rel="noopener noreferrer" class="btn"
+                                href="https://grad.rutgers.edu/news/2024-merit-and-achievement-awards-ceremony#:~:text=abhishek%20sawalkar%2C%20computer%20science">Read
+                                More <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -483,13 +544,19 @@
                         <div class="blog-text">
                             <h2>Poster Presentation</h2>
                             <div class="blog-meta">
-                                <p><i class="far fa-user"></i>  Children's Hospital of Philadelphia</p>
+                                <p><i class="far fa-user"></i> Children's Hospital of Philadelphia</p>
                                 <p><i class="far fa-calendar-alt"></i> 15<sup>th</sup> Nov, 2023</p>
                             </div>
                             <p>
-                                Poster selected for Presentation: “Integrative Clinical and Bio-mechanical Features Predict In-Hospital Trauma Mortality" under the guidance of my thesis mentor, Dr. Anandi Krishnan, and in collaboration with Dr. Valerie Tutwiler, and Andrew Gosselin, at the 51st Annual Philadelphia Workshop on Hemostasis, Thrombosis, and Atherosclerosis organized by the Children's Hospital of Philadelphia, on 15th November, 2023.
+                                Poster selected for Presentation: “Integrative Clinical and Bio-mechanical Features
+                                Predict In-Hospital Trauma Mortality" under the guidance of my thesis mentor, Dr. Anandi
+                                Krishnan, and in collaboration with Dr. Valerie Tutwiler, and Andrew Gosselin, at the
+                                51st Annual Philadelphia Workshop on Hemostasis, Thrombosis, and Atherosclerosis
+                                organized by the Children's Hospital of Philadelphia, on 15th November, 2023.
                             </p>
-                            <a class="btn" href="https://www.linkedin.com/posts/abhisheksawalkar_posterpresentation-clinicalresearch-traumamortality-activity-7133132832171798528-mfrg">Read More <i class="fa fa-angle-right"></i></a>
+                            <a class="btn"
+                                href="https://www.linkedin.com/posts/abhisheksawalkar_posterpresentation-clinicalresearch-traumamortality-activity-7133132832171798528-mfrg">Read
+                                More <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -503,19 +570,21 @@
                         <div class="blog-text">
                             <h2>Certificate of Appreciation</h2>
                             <div class="blog-meta">
-                                <p><i class="far fa-user"></i>  Accenture Leadership</p>
-                                <p><i class="far fa-calendar-alt"></i>  March - 2022</p>
+                                <p><i class="far fa-user"></i> Accenture Leadership</p>
+                                <p><i class="far fa-calendar-alt"></i> March - 2022</p>
                             </div>
                             <p>
                                 Recognized for contribution towards Accenture winning CIO 100 Awards FY 21-22
                             </p>
-                            <a class="btn" href="https://foundryco.com/news/cio-recognizes-business-technology-innovation-with-2022-cio-100-hall-of-fame-awards/">Read More <i class="fa fa-angle-right"></i></a>
+                            <a class="btn"
+                                href="https://foundryco.com/news/cio-recognizes-business-technology-innovation-with-2022-cio-100-hall-of-fame-awards/">Read
+                                More <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
 
     <!-- Footer Start -->
@@ -524,30 +593,47 @@
             <div class="container">
                 <div class="footer-info">
                     <h2><a href="index.html" style="color: white;">Abhishek Sawalkar</a></h2>
-                    <h3><a  href="https://maps.app.goo.gl/rBomT1Gm7nou2eWF9" style="color: white;" target="_blank" rel="noopener noreferrer">New Brunswick, New Jersey, USA</a></h3>
+                    <h3><a href="https://maps.app.goo.gl/ao96qDMD7xbxxNW3A" style="color: white;" target="_blank"
+                            rel="noopener noreferrer">Mountain View,
+                            California, USA</a></h3>
                     <!-- <div class="footer-menu"> -->
                     <!-- <p>+1 732 67890</p> -->
-                    <a href="mailto:abhishek31sawalkar@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <h3>abhishek31sawalkar@gmail.com</h3>
-                    </a>
-                    <a href="mailto:abhishek.sawalkar@rutgers.edu" target="_blank" rel="noopener noreferrer">
-                        <h3>abhishek.sawalkar@rutgers.edu</h3>
-                    </a>
+                    <div style="text-align: center;">
+                        <!-- <h4>Contact</h4> -->
+
+                    </div>
+
+
 
                     <!-- </div> -->
-                    <div class="footer-social">
-                        <!-- <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a> -->
-                        <a href="https://github.com/absaw" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/abhisheksawalkar/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-                        <!-- <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="abhisheksawalkar" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/abhisheksawalkar?trk=profile-badge">Abhishek Sawalkar</a></div> -->
+                    <div class="footer-social" style="font-size: 1.5em;">
+
+                        <a href="https://www.linkedin.com/in/abhisheksawalkar/" target="_blank"
+                            rel="noopener noreferrer" style="display: inline-block; margin-bottom: 10px;">
+                            <i class="fab fa-linkedin" style="font-size: 1.2em; margin-right: 6px;"></i>
+
+                        </a>
+                        <a href="https://github.com/absaw" target="_blank" rel="noopener noreferrer"
+                            style="display: inline-block; margin-bottom: 10px;">
+                            <i class="fab fa-github" style="font-size: 1.2em; margin-right: 6px;"></i>
+
+                        </a>
+                        <a href="mailto:abhishek.sawalkar@rutgers.edu" target="_blank" rel="noopener noreferrer"
+                            style="display: inline-block; margin-bottom: 10px;">
+                            <i class="fas fa-envelope" style="font-size: 1.2em; margin-right: 6px;"></i>
+
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=DsSVHR0AAAAJ&hl=en" target="_blank"
+                            rel="noopener noreferrer" style="display: inline-block; margin-bottom: 10px;">
+                            <i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 6px;"></i>
+                        </a>
+                        <br>
 
                     </div>
                 </div>
             </div>
             <div class="container copyright">
-                <p style="text-align: center;"><a href="index.html">&copy; absaw</a></p>
+                <p style="text-align: center;"><a href="index.html">&copy; Abhishek Sawalkar</a></p>
             </div>
         </div>
     </div>
@@ -584,40 +670,40 @@
 
     <script>
         // Step 1: Select the links with the desired behavior
-const links = document.querySelectorAll('a[href*="#"]');
+        const links = document.querySelectorAll('a[href*="#"]');
 
-// Step 2 and 3: Attach click event listeners and add an offset after the initial click scroll
-links.forEach(link => {
-  link.addEventListener('click', e => {
-    // Prevent the default behavior of the link
-    // e.preventDefault();
+        // Step 2 and 3: Attach click event listeners and add an offset after the initial click scroll
+        links.forEach(link => {
+            link.addEventListener('click', e => {
+                // Prevent the default behavior of the link
+                // e.preventDefault();
 
-    // Get the target element's ID from the href attribute
-    const targetId = link.getAttribute('href').substring(1);
+                // Get the target element's ID from the href attribute
+                const targetId = link.getAttribute('href').substring(1);
 
-    // Get the target element by its ID
-    const targetElement = document.getElementById(targetId);
+                // Get the target element by its ID
+                const targetElement = document.getElementById(targetId);
 
-    if (targetElement) {
-      // Calculate the scroll position with an offset (adjust the offset value as needed)
-      const offset = 10000; // You can change this value
-      const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY + offset;
-        // Get the current scroll position
-        const scrollY = window.scrollY;
+                if (targetElement) {
+                    // Calculate the scroll position with an offset (adjust the offset value as needed)
+                    const offset = 10000; // You can change this value
+                    const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY + offset;
+                    // Get the current scroll position
+                    const scrollY = window.scrollY;
 
-        // Your custom logic here based on the scroll position
-        if (scrollY > 200) {
-        // Perform an action when the user scrolls past a certain point (e.g., 200 pixels)
-        console.log('User scrolled past 200 pixels');
-        }
-      // Scroll to the target element with the offset
-      window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth' // Optional: Add smooth scrolling behavior
-      });
-    }
-  });
-});
+                    // Your custom logic here based on the scroll position
+                    if (scrollY > 200) {
+                        // Perform an action when the user scrolls past a certain point (e.g., 200 pixels)
+                        console.log('User scrolled past 200 pixels');
+                    }
+                    // Scroll to the target element with the offset
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth' // Optional: Add smooth scrolling behavior
+                    });
+                }
+            });
+        });
 
     </script>
 
